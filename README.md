@@ -1,4 +1,4 @@
-# Lista de Puta
+# Lista de Puta :shipit:
 
 > ### Botafogo
 > - Dow jones
