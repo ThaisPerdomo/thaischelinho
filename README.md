@@ -40,6 +40,7 @@
 
 > ### Largo do machado:
 > - DimSum
+> - Praça São Salvador
 
 > ### Centro/saúde
 > - Dark Coffee
@@ -74,6 +75,12 @@
 > - Kat Klub
 > - Shoshana
 > - Miuda Bar
+> - Degrau
+> - Caracol
+> - Cervejaria Central
+> - Sorveteria Frida e Mina
+> - Futuro refeitório
+> - Burger e Mortadela
 
 > ### Recife
 > - Liamba
