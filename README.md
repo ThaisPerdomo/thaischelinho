@@ -1,4 +1,4 @@
-# Lista de Puta :shipit:
+# Lista de Pita :boom:
 
 > ### Botafogo
 > - Dow jones
@@ -21,6 +21,7 @@
 > - Garoa
 > - Lemi
 > - Rooftop Vieira Souto
+> - La putaria
 > - Teva
 
 > ### Humaitá
@@ -82,8 +83,14 @@
 > - Futuro refeitório
 > - Burger e Mortadela
 
+> ### BH
+> - La putaria
+
 > ### Recife
 > - Liamba
+
+> ### Goiás
+> - Toca do macaco
 
 > ### Internacyonais:
 > - Uruguay: Casa Pueblo Paéz Vilaró

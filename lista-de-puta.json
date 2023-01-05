@@ -20,6 +20,7 @@
         "Garoa",
         "Lemi",
         "Rooftop Vieira Souto",
+        "La putaria",
         "Teva"
     ],
     "Humaitá": [
@@ -38,7 +39,8 @@
         "Mureta da urca"
     ],
     "Largo do Machado": [
-        "DimSum"
+        "DimSum",
+        "Praça São Salvador"
     ],
     "Centro/saúde": [
         "Dark Coffee",
@@ -72,10 +74,22 @@
         "Up Cozinha e Bar",
         "Kat Klub",
         "Shoshana",
-        "Miuda Bar"
+        "Miuda Bar",
+        "Degrau",
+        "Caracol",
+        "Cervejaria Central",
+        "Sorveteria Frida e Mina",
+        "Futuro refeitório",
+        "Burger e Mortadela"
+    ],
+    "BH": [
+        "La putaria"
     ],
     "Recife": [
         "Liamba"
+    ],
+    "Goiás": [
+        "Toca do Macaco"
     ],
     "Internacionais": {
         "Uruguai": [
