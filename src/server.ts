@@ -7,7 +7,7 @@ import path from 'path';
 // ÁREA PARA IMPORTAR AS ROTAS
 import mainRoutes from './routes/index';
 
-// Configuração do dotenv
+// Configuração do dotenv. 
 dotenv.config();
 
 // Expressão do servidor
@@ -33,4 +33,4 @@ server.use((req: Request, res: Response) => {
 });
 
 // listen da porta do servidor configurada pelo dotenv
-server.listen(80);
+server.listen(process.env.PORT); 
