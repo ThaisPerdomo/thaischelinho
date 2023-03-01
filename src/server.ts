@@ -33,4 +33,4 @@ server.use((req: Request, res: Response) => {
 });
 
 // listen da porta do servidor configurada pelo dotenv
-server.listen(process.env.PORT);
+server.listen(80);

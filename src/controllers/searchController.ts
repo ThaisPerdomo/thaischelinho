@@ -3,8 +3,8 @@ import { Request, Response } from 'express';
 
 // ÁREA PARA CRIAR OS CONTROLLERS, como o exemplo abaixo
 
-// export const home = (req: Request, res: Response) => {
-//     res.render('home');
-// };
+export const search = (req: Request, res: Response) => {
+    res.render('search');
+};
 
 //
