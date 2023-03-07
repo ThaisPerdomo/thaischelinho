@@ -17,7 +17,7 @@ export const home = async (req: Request, res: Response) => {
         menuativado: ativaMenu('home'),
 
         descricaoPagina: {
-            titulo: 'Places for cool people',
+            titulo: 'All',
             icone: 'iconeprincipal.svg'
         },
 
@@ -25,19 +25,36 @@ export const home = async (req: Request, res: Response) => {
     });
 };
 
-export const comes = (req: Request, res: Response) => {
+export const comes = async (req: Request, res: Response) => {
+
+    let lugares = await Lugar.findAll(
+        {
+            where: {eat: 1}
+        }
+    );
+
     res.render('pages/home', {
 
         menuativado: ativaMenu('comes'),
 
         descricaoPagina: {
             titulo: 'Comes',
-            icone: 'comes.svg'
-        }
+            icone: 'comes.svg',
+        },
+
+        lugares
+
     });
 };
 
-export const bebes = (req: Request, res: Response) => {
+export const bebes = async (req: Request, res: Response) => {
+
+    let lugares = await Lugar.findAll(
+        {
+            where: {drink: 1}
+        }
+    );
+
     res.render('pages/home', {
 
         menuativado: ativaMenu('bebes'),
@@ -45,11 +62,21 @@ export const bebes = (req: Request, res: Response) => {
         descricaoPagina: {
             titulo: 'Bebes',
             icone: 'bebes.svg'
-        }
+        },
+
+        lugares
+
     });
 };
 
-export const passeios = (req: Request, res: Response) => {
+export const passeios = async (req: Request, res: Response) => {
+
+    let lugares = await Lugar.findAll(
+        {
+            where: {chill: 1}
+        }
+    );
+
     res.render('pages/home', {
 
         menuativado: ativaMenu('passeios'),
@@ -57,7 +84,8 @@ export const passeios = (req: Request, res: Response) => {
         descricaoPagina: {
             titulo: 'Passeios',
             icone: 'passeios.svg'
-        }
+        },
+        lugares
     });
 };
 

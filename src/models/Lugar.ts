@@ -23,6 +23,7 @@ interface InterfaceLugares extends Model {
     id2_passeio: number;
 }
 
+// O sequelize.define define pra voce as configurações do model, como o nome da tabela, os campos e os tipos de dados
 export const Lugar = sequelize.define<InterfaceLugares>('Lugar', {
     id: {
         primaryKey: true,
