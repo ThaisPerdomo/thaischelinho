@@ -1,13 +1,16 @@
 import { Request, Response } from 'express';
 // Importando os types Request e o Response do express
 
+import { Lugar } from '../models/Lugar';
+
 // Importando o helper que ativa o menu
 import { ativaMenu } from '../helpers/ativaMenu';
 
 // ÁREA PARA CRIAR OS CONTROLLERS, como o exemplo abaixo
 
-export const home = (req: Request, res: Response) => {
+export const home = async (req: Request, res: Response) => {
 
+    let lugares = await Lugar.findAll();
 
     res.render('pages/home', { 
 
@@ -16,7 +19,9 @@ export const home = (req: Request, res: Response) => {
         descricaoPagina: {
             titulo: 'Places for cool people',
             icone: 'iconeprincipal.svg'
-        }
+        },
+
+        lugares
     });
 };
 

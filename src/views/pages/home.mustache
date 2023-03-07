@@ -17,6 +17,11 @@
         </div>
 </div>
 
-
+<h2>My places</h2>
+<ul>
+        {{#lugares}}
+                <li>Lugar: {{nome}} ID: {{id}}</li>
+        {{/lugares}}
+</ul>
 
 {{>partials/footer}}

@@ -10,7 +10,7 @@ import mainRoutes from './routes/index';
 // Configuração do dotenv. 
 dotenv.config();
 
-// Expressão do servidor
+// Expressão do servidor 
 const server = express();
 
 // Configuração do mustache
