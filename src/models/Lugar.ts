@@ -27,6 +27,7 @@ interface InterfaceLugares extends Model {
 export const Lugar = sequelize.define<InterfaceLugares>('Lugar', {
     id: {
         primaryKey: true,
+        autoIncrement: true,
         type: DataTypes.INTEGER.UNSIGNED
     },
     id_localizacao: {
