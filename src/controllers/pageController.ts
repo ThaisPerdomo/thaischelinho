@@ -6,11 +6,19 @@ import { Lugar } from '../models/Lugar';
 // Importando o helper que ativa o menu
 import { ativaMenu } from '../helpers/ativaMenu';
 
+import { Op } from 'sequelize';
+// Importando o Op do sequelize para fazer a busca no banco de dados
+
 // ÁREA PARA CRIAR OS CONTROLLERS, como o exemplo abaixo
 
 export const home = async (req: Request, res: Response) => {
 
-    let lugares = await Lugar.findAll();
+    let lugares = await Lugar.findAll(
+        {
+            attributes: [ 'id', 'nome']
+        }
+
+    );
 
     res.render('pages/home', { 
 
