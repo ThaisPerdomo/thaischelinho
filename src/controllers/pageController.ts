@@ -15,9 +15,8 @@ export const home = async (req: Request, res: Response) => {
 
     let lugares = await Lugar.findAll(
         {
-            attributes: [ 'id', 'nome']
+            attributes:['id','nome']
         }
-
     );
 
     res.render('pages/home', { 
